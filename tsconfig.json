@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "bin",
+    "lib": [
+      "es6", "esnext"
+    ]
+  },
+  "compileOnSave": false,
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "tests/**/*.js"
+  ]
+}
