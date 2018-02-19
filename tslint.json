@@ -1,0 +1,34 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {
+        "arrow-parens": true,
+        "import-spacing": true,
+        "eofline": true,
+        "no-console": true,
+        "semicolon": false,
+        "prefer-object-spread": true
+    },
+    "rules": {
+        "arrow-parens": true,
+        "import-spacing": true,
+        "eofline": true,
+        "semicolon": false,
+        "no-console": false,
+        "prefer-object-spread": true,
+        "arrow-return-shorthand": true,
+        "indent": true,
+        "no-duplicate-imports": true,
+        "space-within-parens": true,
+        "no-var-keyword": true,
+        "no-unused-variable": true,
+        "no-trailing-whitespace": true,
+        "no-string-throw": true,
+        "quotemark": false,
+        "trailing-comma": false,
+        "object-literal-sort-keys": false
+    },
+    "rulesDirectory": []
+}
