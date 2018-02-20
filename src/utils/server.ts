@@ -1,10 +1,10 @@
 import { Server } from "http";
 
-export const normalizePort = (val: number | string): number | string | boolean => {
+export const normalizePort = (val: number | string): number | string => {
     const port: number = (typeof val === 'string') ? (parseInt(val, 0)) : val
 
     if (isNaN(port)) { return val } else
-    if (port >= 0) { return port } else { return false }
+    if (port > 0) { return port } else { return 0 }
 }
 
 export const onError = (server: Server) => {
