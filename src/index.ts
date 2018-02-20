@@ -1,5 +1,5 @@
 import http = require('http')
-import { normalizePort, onError, onListening } from './helpers/utils'
+import { normalizePort, onError, onListening } from './utils/server'
 
 import App from './app'
 
